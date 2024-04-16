@@ -6,7 +6,7 @@ if (dogAgeHumanYear <= 2){
     console.log(`The Dog age in Dog Years is ${dogAgeDogYears}`);
 }
 else {
-    dogAgeDogYears = 21 + (dogAgeHumanYear * 4)
+    dogAgeDogYears = 21 + ((dogAgeHumanYear -2) * 4)
     console.log(`The Dog age in Dog Years is ${dogAgeDogYears}`);
 }
 //console.log(`The Dog age in Dog years is ${}`);
